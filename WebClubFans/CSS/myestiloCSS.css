@@ -1,0 +1,184 @@
+        #portadaid {
+            width: 100%;
+            height: 400px;
+        }
+        
+        #imageneral {
+            width: 40%;
+            height: 40%;
+            display: block;
+            margin: auto;
+        }
+        
+        #imginicial {
+            width: 40%;
+            height: 40%;
+            display: block;
+            margin: auto;
+        }
+        
+        .button {
+            background-color: #e7e7e7;
+            color: black;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        th#titulog {
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: cornflowerblue;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            color: #a3a3a3;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        
+        h4 {
+            text-align: center;
+            text-transform: uppercase;
+            color: whitesmoke;
+            text-shadow: 2px 2px 4px #000000;
+            height: 20px;
+            height: 30px;
+            font-size: x-large;
+        }
+        
+        p {
+            text-indent: 50px;
+            text-align: justify;
+            letter-spacing: 3px;
+            font-family: 'Trebuchet MS', sans-serif;
+            text-transform: capitalize;
+            text-align: left;
+            justify-content: flex-start;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            font-size: 16px;
+            resize: none;
+        }
+        
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            background-color: #3CBC8D;
+            color: white;
+            border: 3px solid #ccc;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+        }
+        
+        input[type=text]:focus {
+            background-color: lightblue;
+            border: 3px solid #555;
+        }
+        
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            background-color: #3CBC8D;
+            color: white;
+            border: 3px solid #ccc;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+        }
+        
+        input[type=password]:focus {
+            background-color: lightblue;
+            border: 3px solid #555;
+        }
+        
+        input[type=submit] {
+            background-color: black;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+        
+        telcontactoid {
+            font-size: large;
+        }
+        
+        #tablaepi tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        #tablaepi tr:hover {
+            background-color: #ddd;
+        }
+        
+        #tablaepi th {
+            padding-top: 20px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: skyblue;
+            color: white;
+            text-align: left;
+            text-align: left;
+        }
+        
+        img {
+            width: 70%;
+            height: 70%;
+            display: block;
+            margin: auto;
+        }

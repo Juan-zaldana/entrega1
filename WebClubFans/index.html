@@ -6,44 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebclubFans</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/myestiloCSS.css">
 </head>
 
 <body>
-    <div id="portada">
-        <img src="img/The-Walking-Dead-2013_1920x1080.jpg" width="100%" height="250%">
+    <div id="idportada">
+        <img alt="imagenportada" id="portadaid" src="img/The-Walking-Dead-2013_1920x1080.jpg">
     </div>
     <div>
-        <nav>
-            <ul>
-                <li><a href="http://127.0.0.1:5500/index.html">Inicio </a></li>
-                <li><a href="http://127.0.0.1:5500/web/general.html">General</a></li>
-                <li><a href="http://127.0.0.1:5500/web/fotos.html">Fotos</a></li>
-                <li><a href="http://127.0.0.1:5500/web/agenda.html">Agenda</a></li>
-                <li><a href="http://127.0.0.1:5500/web/videos.html">Videos</a></li>
-                <li> <a href="http://127.0.0.1:5500/web/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <ul>
+            <li><a id="inicio" href="/index.html">Inicio </a></li>
+            <li><a id="general" href="/web/general.html">General</a></li>
+            <li><a id="fotos" href="/web/fotos.html">Fotos</a></li>
+            <li><a id="agenda" href="/web/agenda.html">Agenda</a></li>
+            <li><a id="videos" href="/web/videos.html">Videos</a></li>
+            <li> <a id="contacto" href="/web/contacto.html">Contacto</a></li>
+            <li><a href="https://www.cabletv.com/the-walking-dead">Para Ver Mas....</a></li>
+
+        </ul>
+
 
     </div>
     <div>
         <h1>Actor Principal</h1>
-        <img src="img/The-Walking-Dead-Andrew-Lincoln-720x300.jpg" width="50%" height="50%">
-        <p>Andrew James Clutterbuck (Londres, 14 de septiembre de 1973), más conocido por su nombre artístico Andrew Lincoln, es un actor británico. Su primera actuación televisiva importante la obtuvo en el drama de la BBC This Life (1996-1997), aunque
-            es popularmente conocido por haber interpretado a Rick Grimes en la serie de televisión The Walking Dead de la cadena AMC (2010-2020) y por su rol principal en la comedia británica Teachers (2001-2004), como Simon Casey.</p>
+        <img src="img/The-Walking-Dead-Andrew-Lincoln-720x300.jpg" width="50%" height="50%" alt="">
+        <p id="cuerpoprincipal">Andrew James Clutterbuck (Londres, 14 de septiembre de 1973), más conocido por su nombre artístico Andrew Lincoln, es un actor británico. Su primera actuación televisiva importante la obtuvo en el drama de la BBC This Life (1996-1997), aunque
+            es popularmente conocido por haber interpretado a Rick Grimes en la serie de televisión The Walking Dead de la cadena AMC (2010-2020) y por su rol principal en la comedia británica Teachers (2001-2004), como Simon Casey.
+        </p>
     </div>
     <div>
-        <nav>
-            <tr>
-                <th>
-                    <h1>Walkind Dead estrenara nueva temporada</h1>
-                    <a href="https://www.fotogramas.es/series-tv-noticias/a37923035/walking-dead-temporada-11-episodio-8-final-muerte/"> la nueva temporada de la  aclamada serie que llega...</a>
-                </th>
+        <th>
+            <h2>The Walking Dead estrenara nueva temporada</h2>
+            <a href="https://www.fotogramas.es/series-tv-noticias/a37923035/walking-dead-temporada-11-episodio-8-final-muerte/">
+                        la nueva temporada de la aclamada serie que llega...</a>
+        </th>
 
-
-            </tr>
-        </nav>
+    </div>
+    <div>
+        <form>
+            <label for="fnombre">Nombre</label>
+            <input type="text" id="fnombre" name="fnombre">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña">
+            <input type="submit" value="Enviar">
+        </form>
     </div>
 
+    <div>
+        <textarea name="contacto" rows="10" cols="100" id="contactoid"></textarea>
+    </div>
+
+    <div>
+        <button class="button">Contactame</button>
+    </div>
 
     <footer>
         <div>copyright 2021 Juan Jose Ponce
